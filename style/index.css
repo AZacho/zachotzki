@@ -1,0 +1,33 @@
+body {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(212, 212, 212);
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+}
+
+.headline h1 {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.construction-site{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.construction-site-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.construction-site-img img {
+    width: 500px;
+}
